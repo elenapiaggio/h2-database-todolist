@@ -19,7 +19,4 @@ public class ToDoListController {
     public List<Task> getTasks() {
         return taskService.getTask();
     }
-
-
-
 }
